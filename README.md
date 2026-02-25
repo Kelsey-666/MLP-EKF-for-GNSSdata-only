@@ -9,6 +9,8 @@ The repository follows an LF-style workflow, but uses project-local data interfa
 
 ---
 
+![2D Trajectory Comparison (Test Epoch 2001-5000)](mlp-gnss_results/smartloc_berlin2_org_baseline_mlp_figset_2001to5000/trajectory2d_org_baseline_mlp_vs_gt.png)
+
 ## Framework Overview
 
 The end-to-end pipeline has four stages:
