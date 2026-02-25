@@ -1,0 +1,56 @@
+{
+  "inputs": {
+    "raw_csv": "D:\\MLPkalmannet\\Data\\raw_observation.csv",
+    "gt_csv": "D:\\MLPkalmannet\\Data\\gt_processed.csv"
+  },
+  "outputs": {
+    "observations_csv": "D:\\MLPkalmannet\\Data\\mlp_compat\\mlp_observations.csv",
+    "epochs_csv": "D:\\MLPkalmannet\\Data\\mlp_compat\\mlp_epochs.csv",
+    "gt_csv": "D:\\MLPkalmannet\\Data\\mlp_compat\\mlp_gt.csv"
+  },
+  "id_mapping": {
+    "0": "GPS",
+    "2": "GAL",
+    "3": "BDS",
+    "6": "GLO"
+  },
+  "quality_for_coarse_ls": {
+    "cno_min_dbhz": 20.0,
+    "elev_min_deg": 10.0
+  },
+  "feature_columns_for_model": [
+    "cno_dbhz",
+    "azim_deg",
+    "elev_deg",
+    "residual_m"
+  ],
+  "label_columns": [
+    "gt_lat_deg",
+    "gt_lon_deg",
+    "gt_h_m"
+  ],
+  "leakage_policy": {
+    "forbidden_in_model_input": [
+      "gt_ecef_x_m",
+      "gt_ecef_y_m",
+      "gt_ecef_z_m",
+      "gt_lat_deg",
+      "gt_lon_deg",
+      "gt_h_m"
+    ]
+  },
+  "stats": {
+    "epochs_total": 4000,
+    "observations_total": 109247,
+    "coarse_ok_epochs": 3993,
+    "split_counts": {
+      "train": 2800,
+      "val": 600,
+      "test": 600
+    }
+  },
+  "notes": [
+    "MLP-Kalmannet bridge approximates RINEX+EPH by using precomputed satellite states in raw observations.",
+    "Residuals are generated from coarse LS, not from GT receiver positions."
+  ]
+}

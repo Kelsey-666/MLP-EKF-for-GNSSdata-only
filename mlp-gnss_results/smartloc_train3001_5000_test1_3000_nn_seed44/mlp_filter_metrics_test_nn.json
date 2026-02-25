@@ -1,0 +1,40 @@
+{
+  "all": {
+    "count": 3000.0,
+    "east_rmse_m": 6.578870127973651,
+    "north_rmse_m": 7.693445147502196,
+    "up_rmse_m": 14.722077890221184,
+    "2d_rmse_m": 10.12277780050363,
+    "3d_rmse_m": 17.866454819132656
+  },
+  "train": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "val": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "test": {
+    "count": 3000.0,
+    "east_rmse_m": 6.578870127973651,
+    "north_rmse_m": 7.693445147502196,
+    "up_rmse_m": 14.722077890221184,
+    "2d_rmse_m": 10.12277780050363,
+    "3d_rmse_m": 17.866454819132656
+  },
+  "mode": "nn",
+  "epochs_input": 3000,
+  "epochs_output": 3000,
+  "split": "test",
+  "checkpoint": "trained_model\\mlp_seed44_smartloc_3001to5000_40ep\\mlp_seed44_smartloc_3001to5000_40ep_s44_20260225_203347_best.pth",
+  "learned_epochs": 3000
+}

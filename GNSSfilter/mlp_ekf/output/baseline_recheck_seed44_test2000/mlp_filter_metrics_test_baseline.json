@@ -1,0 +1,38 @@
+{
+  "all": {
+    "count": 2000.0,
+    "east_rmse_m": 9.730904492992856,
+    "north_rmse_m": 11.31391066321352,
+    "up_rmse_m": 16.49103041692902,
+    "2d_rmse_m": 14.922971444954424,
+    "3d_rmse_m": 22.24070954261584
+  },
+  "train": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "val": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "test": {
+    "count": 2000.0,
+    "east_rmse_m": 9.730904492992856,
+    "north_rmse_m": 11.31391066321352,
+    "up_rmse_m": 16.49103041692902,
+    "2d_rmse_m": 14.922971444954424,
+    "3d_rmse_m": 22.24070954261584
+  },
+  "mode": "baseline",
+  "epochs_input": 2000,
+  "epochs_output": 2000,
+  "split": "test"
+}

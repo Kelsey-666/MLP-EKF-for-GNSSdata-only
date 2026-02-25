@@ -1,0 +1,40 @@
+{
+  "all": {
+    "count": 3000.0,
+    "east_rmse_m": 6.055607691184905,
+    "north_rmse_m": 8.900391316280999,
+    "up_rmse_m": 9.117067285099912,
+    "2d_rmse_m": 10.765098703331429,
+    "3d_rmse_m": 14.107028956286545
+  },
+  "train": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "val": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "test": {
+    "count": 3000.0,
+    "east_rmse_m": 6.055607691184905,
+    "north_rmse_m": 8.900391316280999,
+    "up_rmse_m": 9.117067285099912,
+    "2d_rmse_m": 10.765098703331429,
+    "3d_rmse_m": 14.107028956286545
+  },
+  "mode": "nn",
+  "epochs_input": 3000,
+  "epochs_output": 3000,
+  "split": "test",
+  "checkpoint": "D:\\MLPkalmannet\\trained_model\\mlp_seed44_smartloc_3001to5000_40ep\\mlp_seed44_smartloc_3001to5000_40ep_s44_20260225_203347_best.pth",
+  "learned_epochs": 3000
+}

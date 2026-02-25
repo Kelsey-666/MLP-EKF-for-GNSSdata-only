@@ -1,0 +1,45 @@
+{
+  "run_tag": "s44",
+  "seed": 44,
+  "best_checkpoint": "trained_model\\mlp_seed44_smoke\\mlp_seed44_smoke_s44_20260225_043334_best.pth",
+  "latest_checkpoint": "trained_model\\mlp_seed44_smoke\\mlp_seed44_smoke_s44_20260225_043334_latest.pth",
+  "best_selection_metric": 555.6273725765834,
+  "best_val_3d_rmse_m": 672.79470132124,
+  "best_test_3d_rmse_m": 438.46004383192667,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 61.50989984824028,
+      "lr": 0.0001,
+      "val_3d_rmse_m": 672.79470132124,
+      "test_3d_rmse_m": 438.46004383192667,
+      "selection_metric": 555.6273725765834
+    }
+  ],
+  "norm_params": {
+    "mean": [
+      30.211479058780775,
+      13.837084380600732,
+      37.59612623417858,
+      5.4913837079837355
+    ],
+    "std": [
+      8.920960986602054,
+      94.56773132476087,
+      15.36513308144584,
+      25.141325575285354
+    ],
+    "clip_low": [
+      -Infinity,
+      -Infinity,
+      -Infinity,
+      -46.76131311863661
+    ],
+    "clip_high": [
+      Infinity,
+      Infinity,
+      Infinity,
+      105.62697316981809
+    ]
+  }
+}

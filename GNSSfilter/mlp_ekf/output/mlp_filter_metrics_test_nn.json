@@ -1,0 +1,40 @@
+{
+  "all": {
+    "count": 2000.0,
+    "east_rmse_m": 69.28122670262364,
+    "north_rmse_m": 371.3970893191764,
+    "up_rmse_m": 222.5118507164162,
+    "2d_rmse_m": 377.80376695869063,
+    "3d_rmse_m": 438.4600438322987
+  },
+  "train": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "val": {
+    "count": 0.0,
+    "east_rmse_m": NaN,
+    "north_rmse_m": NaN,
+    "up_rmse_m": NaN,
+    "2d_rmse_m": NaN,
+    "3d_rmse_m": NaN
+  },
+  "test": {
+    "count": 2000.0,
+    "east_rmse_m": 69.28122670262364,
+    "north_rmse_m": 371.3970893191764,
+    "up_rmse_m": 222.5118507164162,
+    "2d_rmse_m": 377.80376695869063,
+    "3d_rmse_m": 438.4600438322987
+  },
+  "mode": "nn",
+  "epochs_input": 2000,
+  "epochs_output": 2000,
+  "split": "test",
+  "checkpoint": ".\\trained_model\\mlp_seed44_smoke\\mlp_seed44_smoke_s44_20260225_043334_best.pth",
+  "learned_epochs": 2000
+}

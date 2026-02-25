@@ -1,0 +1,11 @@
+{
+  "epoch_start_original": 2001,
+  "epoch_end_original": 5000,
+  "epoch_count": 3000,
+  "north_rmse_m": 11.875757691979475,
+  "east_rmse_m": 11.919066726231875,
+  "down_rmse_m": 23.14075917236423,
+  "up_rmse_m": 23.14075917236423,
+  "2d_rmse_m": 16.82550957275819,
+  "3d_rmse_m": 28.611055685806782
+}

@@ -1,0 +1,45 @@
+{
+  "checkpoint": ".\\trained_model\\mlp_seed44_smoke\\mlp_seed44_smoke_s44_20260225_043334_best.pth",
+  "torchscript": "trained_model\\mlp_seed44_smoke\\exported_model.ts",
+  "model_args": {
+    "model_type": "mlp",
+    "input_size": 4,
+    "hidden_sizes": [
+      64,
+      128,
+      64
+    ],
+    "output_size": 2,
+    "gru_hidden_size": 96,
+    "gru_num_layers": 1,
+    "gru_dropout": 0.0,
+    "gru_bidirectional": false
+  },
+  "norm_params": {
+    "mean": [
+      30.211479058780775,
+      13.837084380600732,
+      37.59612623417858,
+      5.4913837079837355
+    ],
+    "std": [
+      8.920960986602054,
+      94.56773132476087,
+      15.36513308144584,
+      25.141325575285354
+    ],
+    "clip_low": [
+      -Infinity,
+      -Infinity,
+      -Infinity,
+      -46.76131311863661
+    ],
+    "clip_high": [
+      Infinity,
+      Infinity,
+      Infinity,
+      105.62697316981809
+    ]
+  },
+  "exported_at": "2026-02-25T04:39:43.445831"
+}
