@@ -33,3 +33,10 @@ python Data/mlp_make_epoch_window.py --input-observations Data/mlp_compat/mlp_ob
 ## Notes
 - This phase intentionally does not include training scripts yet.
 - See `MLP_19point_mapping.md` for detailed mismatch handling.
+
+## Public Dataset Source
+For reproducible experiments with public navigation products, this project uses BKG IGS BRDC resources:
+- Directory: `https://igs.bkg.bund.de/root_ftp/IGS/BRDC/`
+- Time span used in this setup: `week=1900, tow≈130926~132119`, corresponding to `2016-06-06 (DOY 158)`.
+- Multi-GNSS broadcast navigation + clock file:
+  `https://igs.bkg.bund.de/root_ftp/IGS/BRDC/2016/158/BRDC00WRD_U_20161580000_01D_MN.rnx.gz`
